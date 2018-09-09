@@ -16,10 +16,12 @@ How to Use ?
  >> FIRST STEP : CONFIG MAMPSTACK <<
  
 - config on "apache2" the file "conf/bitnami/bitnami-apps-prefix.conf" by adding those 2 lines :
+
   Include "@/apps/camagru/conf/httpd-prefix.conf"
+  
   Include "@/apps/phpmyadmin/conf/httpd-prefix.conf"
   
-  >> SECOND STEP : SERVER <<
+ >> SECOND STEP : SERVER <<
 
 - Start with the Bitnami Mamp Stack's Manager "Apache web server" and "MySQL database"
 - Be sure Apache Web Server is on the port 8081 and MySQL on the port 8080
